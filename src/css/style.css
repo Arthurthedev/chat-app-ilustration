@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background-color: hsl(270, 20%, 96%);
+    font-size: 16px;
+    font-family: 'Rubik' , sans-serif;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phone{
+    width: 65%;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.phone .top{
+    background-image: linear-gradient(to right, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    border-radius: 20px 20px 10px 10px;
+}
+
+.phone .top .camera{
+    text-align: center;
+    background-color: white;
+    width: 50%; 
+    margin: auto;
+    height: 20px;
+    border-radius: 0px 0px 15px 15px;
+}
+.phone .top .informations{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.phone .top .informations .perfil{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    justify-content: space-evenly;
+
+}
+.phone .top .informations .perfil .avatar-img{
+    border-radius: 20px;
+    border: 2px solid white;
+    width: 25px;
+}
+
+
+.phone .messages{
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 20px;
+
+}
